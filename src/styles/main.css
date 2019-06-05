@@ -1,7 +1,16 @@
 @tailwind base;
 
+html,
 body {
   background-color: theme("colors.bg");
+  color: theme("colors.text");
+  font-family: theme("fontFamily.text");
+  font-size: 36px;
+  @apply .antialiased;
+}
+
+body {
+  padding: 64px;
 }
 
 @tailwind components;
