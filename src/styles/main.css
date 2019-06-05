@@ -5,8 +5,10 @@ body {
   background-color: theme("colors.bg");
   color: theme("colors.text");
   font-family: theme("fontFamily.text");
+  font-weight: 400;
   font-size: 36px;
   @apply .antialiased;
+  @apply .leading-snug;
 }
 
 body {
