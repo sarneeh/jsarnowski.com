@@ -27,7 +27,8 @@ export default ({ className }) => (
           'md:w-1/4',
           'px-2',
           'sm:px-0',
-          'mb-4'
+          'mb-4',
+          'anim-scale'
         )}
       >
         <img src={social.icon} />

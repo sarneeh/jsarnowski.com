@@ -37,7 +37,7 @@ export default ({ className }) => (
           'pb-5': index <= 3
         })}
       >
-        <img className="w-10 h-10" src={svg} />
+        <img className="w-10 h-10 anim-scale" src={svg} />
       </div>
     ))}
   </div>
