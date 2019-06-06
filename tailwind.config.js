@@ -29,6 +29,9 @@ module.exports = {
       },
       spacing: {
         ...spaceEntries
+      },
+      zIndex: {
+        '-1': -1
       }
     }
   }

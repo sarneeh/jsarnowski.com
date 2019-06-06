@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/main.css';
 
 import bgIcon1 from '../icons/bgIcon1.svg';
+import bgIcon2 from '../icons/bgIcon2.svg';
 
 import { H1, H2, Highlight } from '../components/Text';
 import Container from '../components/Container';
@@ -13,7 +14,7 @@ import SocialGrid from '../components/SocialGrid';
 const IndexPage = () => (
   <main className="text-xs lg:text-base relative overflow-hidden">
     <img
-      className="absolute opacity-05 w-1024 max-w-none -top-128"
+      className="absolute opacity-05 w-1024 max-w-none -top-128 -z-1"
       src={bgIcon1}
     />
     <Container>
@@ -27,7 +28,7 @@ const IndexPage = () => (
         </p>
       </div>
     </Container>
-    <div className="flex w-full lg:justify-end">
+    <div className="relative flex w-full lg:justify-end z-10">
       <div className="bg-main w-full lg:w-2/3 xl:w-1/2 p-4 sm:p-6 text-white">
         <H2 className="mb-4">Strengths</H2>
         <p className="mb-4">
@@ -41,7 +42,11 @@ const IndexPage = () => (
         <SkillCarousel />
       </div>
     </div>
-    <Container>
+    <Container className="relative">
+      <img
+        className="absolute opacity-05 w-1024 max-w-none -left-64 lg:-top-512 -z-1"
+        src={bgIcon2}
+      />
       <H2 className="mb-4">Work*</H2>
       <p className="mb-4">
         Unfortunately, I’m totally out of time right now because I’m busy

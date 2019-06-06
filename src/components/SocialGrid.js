@@ -18,6 +18,7 @@ export default ({ className }) => (
   <div className={classNames('flex', 'flex-wrap', 'justify-around', className)}>
     {socials.map((social, index) => (
       <a
+        key={index}
         href={social.href}
         className={classNames(
           'flex',
