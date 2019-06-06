@@ -29,9 +29,10 @@ const IndexPage = () => (
       <H2 className="mb-4">Strengths</H2>
       <p className="mb-6">
         I’m capable of and willing to create literally{' '}
-        <Highlight>anything</Highlight>. Everything is just a matter of time.
-        But if you need an <Highlight>experienced developer</Highlight> in a
-        specific topic, then my biggest strenghts are listed below.
+        <Highlight>anything</Highlight>. Every task is just a matter of time and
+        proper research. Of course I don't know everything, but I've got a lot
+        of <Highlight>experience</Highlight> and{' '}
+        <Highlight>knowledge</Highlight> in technologies listed below.
       </p>
       <SkillGrid />
       <SkillCarousel />
