@@ -5,6 +5,7 @@ import '../styles/main.css';
 import bgIcon1 from '../icons/bgIcon1.svg';
 import bgIcon2 from '../icons/bgIcon2.svg';
 
+import Layout from '../components/Layout';
 import { H1, H2, Highlight } from '../components/Text';
 import Container from '../components/Container';
 import SkillGrid from '../components/SkillGrid';
@@ -12,7 +13,7 @@ import SkillCarousel from '../components/SkillCarousel';
 import SocialGrid from '../components/SocialGrid';
 
 const IndexPage = () => (
-  <main className="text-xs lg:text-base relative overflow-hidden">
+  <Layout>
     <img
       className="absolute opacity-05 w-1024 max-w-none -top-128 -z-1"
       src={bgIcon1}
@@ -21,7 +22,7 @@ const IndexPage = () => (
       <div className="lg:w-2/3">
         <H1 className="text-main">Hello!</H1>
         <p>
-          My name is <Highlight>Jacob Sarnowski</Highlight> and I’m a{' '}
+          My name is <Highlight>Jakub Sarnowski</Highlight> and I’m a{' '}
           <Highlight>software engineer</Highlight>. I’m passionate about
           creating amazing, helpful, intuitive, eye-pleasing products which
           users <Highlight className="text-main">love</Highlight> to use.
@@ -74,7 +75,7 @@ const IndexPage = () => (
         hello@jsarnowski.com
       </a>
     </Container>
-  </main>
+  </Layout>
 );
 
 export default IndexPage;
