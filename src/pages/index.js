@@ -22,8 +22,8 @@ const IndexPage = () => (
         <p>
           My name is <Highlight>Jacob Sarnowski</Highlight> and I’m a{' '}
           <Highlight>software engineer</Highlight>. I’m passionate about
-          creating amazing, intuitive, eye-pleasing products which users{' '}
-          <Highlight className="text-main">love</Highlight> to use.
+          creating amazing, helpful, intuitive, eye-pleasing products which
+          users <Highlight className="text-main">love</Highlight> to use.
         </p>
       </div>
     </Container>
