@@ -61,6 +61,19 @@ const IndexPage = () => (
         you can’t have everything, right? :)
       </p>
     </Container>
+    <Container>
+      <H2 className="mb-4">Contact</H2>
+      <p className="mb-4">
+        If you’re interested in my services or want to know more about my work
+        because the above didn’t convince you - don’t hesitate to message me!
+      </p>
+      <a
+        className="text-main font-bold text-sm md:text-xl lg:text-3xl break-all"
+        href="mailto:hello@jsarnowski.com"
+      >
+        hello@jsarnowski.com
+      </a>
+    </Container>
   </main>
 );
 
