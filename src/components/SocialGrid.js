@@ -8,10 +8,10 @@ import iconLinkedIn from '../icons/social-linkedin.svg';
 
 // TODO: fill out hrefs
 const socials = [
-  { href: '', icon: iconGithub },
-  { href: '', icon: iconDev },
-  { href: '', icon: iconBehance },
-  { href: '', icon: iconLinkedIn }
+  { href: 'https://github.com/sarneeh', icon: iconGithub },
+  { href: 'https://dev.to/sarneeh', icon: iconDev },
+  { href: 'https://behance.net/sarneeh', icon: iconBehance },
+  { href: 'https://linkedin.com/in/jakub-sarnowski', icon: iconLinkedIn }
 ];
 
 export default ({ className }) => (
