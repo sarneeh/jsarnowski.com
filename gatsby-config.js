@@ -38,6 +38,12 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-141658275-1'
+      }
     }
   ]
 };
