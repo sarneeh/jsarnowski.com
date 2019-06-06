@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@gatsbyjs`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,15 +14,15 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`,
+        display: `minimal-ui`
         // TODO: add icon (path to .png file)
-      },
+      }
     },
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require(`tailwindcss`), require(`autoprefixer`)],
-      },
+        postCssPlugins: [require(`tailwindcss`), require(`autoprefixer`)]
+      }
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -30,14 +30,14 @@ module.exports = {
         fonts: [
           {
             family: `Cairo`,
-            variants: [`700`],
+            variants: [`700`]
           },
           {
             family: `Roboto`,
-            variants: [`400`, `700`],
-          },
-        ],
-      },
-    },
-  ],
-}
+            variants: [`400`, `700`]
+          }
+        ]
+      }
+    }
+  ]
+};

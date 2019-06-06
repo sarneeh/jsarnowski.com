@@ -1,7 +1,6 @@
 @tailwind base;
 
-html,
-body {
+html {
   background-color: theme('colors.bg');
   color: theme('colors.text');
   font-family: theme('fontFamily.text');
@@ -9,12 +8,6 @@ body {
   font-size: 36px;
   @apply .antialiased;
   @apply .leading-snug;
-}
-
-.bg-icon {
-  width: 1440px;
-  position: absolute;
-  opacity: 0.025;
 }
 
 @tailwind components;
