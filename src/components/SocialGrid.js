@@ -6,7 +6,6 @@ import iconDev from '../icons/social-dev.svg';
 import iconBehance from '../icons/social-behance.svg';
 import iconLinkedIn from '../icons/social-linkedin.svg';
 
-// TODO: fill out hrefs
 const socials = [
   { href: 'https://github.com/sarneeh', icon: iconGithub },
   { href: 'https://dev.to/sarneeh', icon: iconDev },
