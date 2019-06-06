@@ -1,7 +1,10 @@
 import React from 'react';
 
+import SEO from './SEO';
+
 export default ({ children }) => (
   <React.Fragment>
+    <SEO lang="en" />
     <main className="text-xs lg:text-base relative overflow-hidden">
       {children}
     </main>
